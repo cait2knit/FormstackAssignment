@@ -17,7 +17,7 @@ namespace FormstackAutomation
             test.GetFormByIdRange();
             test.CopyFormById();
             test.CopyFormIdRange();
-            //test.DeleteForm();
+            test.DeleteCopiedForm();
             test.DeleteFormIdRange();
 
         int totalTestsInt = test.success + test.fail;
